@@ -148,44 +148,44 @@ a{
 .hero-img img.active {
     opacity: 1;
 }
-.moving-text-container{
+.admission-banner{
     display:flex;
+    align-items: center;
     background-color: darkblue;
+    color: white;
     padding: 20px 10% 20px;
-    flex-wrap: wrap;
-    flex-direction: column;
     overflow: hidden;
-    align-items: flex-start;
 }
-.still-text{
-    display:flex;
-    color: white;
-    font-size: 16px;
+.admission-label{
+    padding: 10px 20px;
+    font-weight:600;
+    white-space: nowrap;
+    align-items: end;
+}
+.admission-slider{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
     font-weight: 500;
 }
-.moving-text{
-    display:flex;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    animation: scroll-left 20s linear infinite;
+.admission-track{
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 40s linear infinite;
+    font-weight: 300;
 }
 @keyframes scroll-left {
     0% {transform: translateX(100%);}
 
     100% {transform: translateX(-100%);}
 }
-.divider {
-    opacity: 0.8;
-    font-weight: 300;
-}
 .apply-btn{
-    background-color: #ffcc00;
+    background-color: darkorange;
     color: darkblue;
     padding: 6px 12px;
     border-radius: 6px;
     font-weight: 700;
-    align-items: right;
+    align-items: center;
 }
 
 .section{
@@ -200,7 +200,7 @@ a{
     text-align: center;
 }
 .hero2-wrapper{
-    background: linear-gradient(180deg, white, deepskyblue);
+    background: linear-gradient(180deg, white, lightblue);
     padding: 28px 24px 48px;
     display: flex;
     justify-content: center;
@@ -212,8 +212,8 @@ a{
     max-width: 1200px;
     border-radius: 6px;
     overflow: visible;
-    box-shadow: 0 8px 22px rgba(2, 6, 23, 0.08);
-    background: white;
+    background: transparent;
+
 }
 .image-zoom{
     padding: 50px;
@@ -222,7 +222,7 @@ a{
     transition: transform .2s;
     display: block;
     width: 1200px;
-    height: 300px;
+    height: 400px;
     border-radius: 6px;
     object-fit: cover;
     
@@ -233,13 +233,12 @@ a{
 }
 .image-zoom-txt-container{
     display: flex;
-    padding: 15px 30px 15px 30px;
     justify-content: center;
 
 }
 .image-zoom-txt{
-    display: flex;
-    font-size: 10px;
+    display: inline-flex;
+    font-size: 16px;
     background: darkblue;
     color: white;
     padding: 10px 20px;
