@@ -69,7 +69,7 @@ a{
 
 }
 .navbar{
-    background: #fff;
+    background: white;
     border-bottom: 1px solid #f3c301;
 }
 .logo img{
@@ -138,7 +138,6 @@ a{
 .hero-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -189,12 +188,10 @@ a{
 .section{
     display: flex;
     padding: 30px 25% 30px;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 700;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    font-weight: 700;
     text-align: center;
 }
 .hero2-wrapper{
@@ -240,18 +237,32 @@ a{
     padding: 10px 20px;
     box-shadow: 0 6px 18px rgba(2, 6, 23, 0.14);
 }
-.table-container{
-    display: grid;
-    margin: 50px;
-    border: 2px solid rgb(96 139 168);
-    padding: 16px 20% 16px;
-    align-items: flex-start;
-    grid-column: 24px;
-    gap: 24px;
+.carrer-table-container{
+    margin: 0;
+    justify-content: center;
 }
-.table-content{
-    border: 2px solid rgb(96 139 168);
-    border-radius: 5px;
-    padding: 16px;
-    background-color: rgb(96 139 168 / 0.2);
+.carrer-table-heading{
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-bottom:4px solid darkblue;
+}
+.carrer-table-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10% 20px;
+    gap: 15px;
+}
+.carrer-table-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.14), 0 -6px 18px rgba(2, 6, 23, 0.14);
+    width: 200px;
+    height: 100px;
+    gap: 16px;
 }
