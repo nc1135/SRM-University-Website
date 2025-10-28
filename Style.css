@@ -301,7 +301,7 @@ a{
 .main-footer{
     display: flex;
     background:Gainsboro;
-    border-top: 0.5px solid black;
+    border-top: 0.5px solid gray;
 }
 .logo-footer{
     padding: 75px 3% 75px;
