@@ -272,6 +272,32 @@ a{
 .carrer-table-content-matter img:hover{
     transform: scale(1.1);
 }
+.student-life-container{
+    background: whitesmoke ;
+    margin-top: 50px;
+    color: darkblue;
+}
+.student-life-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.student-life-main{
+    display: flex;
+    padding: 20px 8% 40px;
+    gap: 32px;
+}
+.student-life-table h3{
+    font-size: 20px;
+} 
+.student-life-table ul li{
+    display: flex;
+    flex-wrap: wrap; 
+    font-weight: 300;   
+    list-style: none;
+    text-decoration: none;
+}
 .main-footer{
     display: flex;
     background:Gainsboro;
