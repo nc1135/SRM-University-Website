@@ -251,7 +251,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 10% 20px;
+    padding: 20px 10% 0px;
     gap: 15px;
 }
 .carrer-table-content-matter{
@@ -267,8 +267,42 @@ a{
 .carrer-table-content-matter img{
     width: 200px;
     height: 130px;
+    border-radius: 3px;
 }
 .carrer-table-content-matter img:hover{
     transform: scale(1.1);
 }
-
+.main-footer{
+    display: flex;
+    background:Gainsboro;
+    border-top: 0.5px solid black;
+}
+.logo-footer{
+    padding: 75px 3% 75px;
+}
+.logo-footer img{
+    height: 75px;
+    width: 400px;
+}
+.contact-details{
+    padding: 60px 0% 60px;
+}
+.contact-details ul li{
+    list-style: none;
+    color: darkblue;
+    font-size: 20px;
+}
+.footer-links{
+    display: inline-flex;
+    padding: 90px 2% 80px;
+    font-size: 24px;
+    color: darkblue;
+}
+.footer-bar{
+    display: flex;
+    background: darkblue;
+    color: cornflowerblue;
+    padding: 12px 1% 12px;
+    justify-content: center;
+    gap: 32px;
+}
