@@ -299,6 +299,51 @@ a{
 .carrer-table-content-matter img:hover{
     transform: scale(1.1);
 }
+.news-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color:azure;
+    padding: 20px 4% 20px;
+}
+.news-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.news-heading-underline{
+    display: flex;
+    border-bottom: 5px solid #336699;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.news-content{
+    display: flex;
+}
+.news-content-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 2% 10px;
+}
+.news-content-main{
+    display: flex;
+    gap: 20px;
+}
+.news-content-main div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px 1% 10px;
+}
+.news-content-main div p{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background: #336699;
+    border-radius: 5px;
+
+}
 .student-life-container{
     background: whitesmoke ;
     margin-top: 50px;
