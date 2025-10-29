@@ -44,19 +44,19 @@ a{
     font-weight: 400;
 }
 .top-links :hover{
-    color: #CC9900;
+    color: #FFCC00;
     text-decoration: underline;
 }
 .admission-btn{
-    background-color: #CC9900;
-    color: #002147;
+    background-color: #FFCC00;
+    color: black;
     padding: 6px 12px;
     border-radius: 6px;
     font-weight: 700;
     align-items: right;
 }
 .admission-btn :hover{
-    background-color: #CC9900;
+    background-color: #FFCC00;
 }
 /*Main navigation Bar css*/
 .header{
@@ -70,7 +70,7 @@ a{
 }
 .navbar{
     background: white;
-    border-bottom: 1px solid #CC9900;
+    border-bottom: 1px solid #FFCC00;
 }
 .logo img{
     padding-left: 40%;
@@ -99,17 +99,17 @@ a{
     font-weight: 600;
     padding: 6px 4px;
 }
-.arrow-down{
-    position: relative;
-    border: solid #336699;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 4px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+.arrow-align{
+    display: flex;
+}
+.arrow-align i{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    color: #336699;
 }
 .sub-menu{
-    border-top: 2px solid #CC9900;
+    border-top: 2px solid #FFCC00;
     position: absolute;
     left: 0;
     top: 36px;
@@ -121,9 +121,35 @@ a{
     min-width: 180px;
     list-style: none;
 }
-.sub-menu li{
+.sub-menu-container{
+    display: flex;
+    width: 100%;
+    left: 0;
+    justify-content: space-between;
     white-space: nowrap;
     padding: 6px 8px;
+    gap: 20px;
+}
+
+.sub-menu-main h1{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    padding: 5px 2% 5px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.sub-menu-main ul{
+    list-style: none;
+}
+.sub-menu-main ul li{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    padding: 5px 2% 5px;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 70%;
 }
 .has-sub:hover > .sub-menu{
     display: block;
@@ -176,7 +202,7 @@ a{
     100% {transform: translateX(-100%);}
 }
 .apply-btn{
-    background-color: #CC9900;
+    background-color: #FFCC00;
     color: #336699;
     padding: 6px 12px;
     border-radius: 6px;
@@ -310,19 +336,29 @@ a{
     height: 75px;
     width: 400px;
 }
-.contact-details{
+.contact-details{  
     padding: 60px 0% 60px;
 }
 .contact-details ul li{
     list-style: none;
     color: #336699;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .footer-links{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     padding: 90px 2% 80px;
     font-size: 24px;
     color: #336699;
+}
+.footer-links a{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
 }
 .footer-bar{
     display: flex;
